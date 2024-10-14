@@ -68,6 +68,14 @@
                 <td class="respuesta"><?php var_dump((int) false); ?></td>
             </tr>
             <tr>
+                <td>(int) 0.6</td>
+                <td class="respuesta"><?php var_dump((int) 0.6); ?></td>
+            </tr>
+            <tr>
+                <td>(int) 99.99</td>
+                <td class="respuesta"><?php var_dump((int) 99.99); ?></td>
+            </tr>
+            <tr>
                 <td>(int) "123"</td>
                 <td class="respuesta"><?php var_dump((int) "123"); ?></td>
             </tr>
@@ -105,6 +113,10 @@
             <tr>
                 <td>(float) false</td>
                 <td class="respuesta"><?php var_dump((float) false); ?></td>
+            </tr>
+             <tr>
+                <td>(float) 123</td>
+                <td class="respuesta"><?php var_dump((float) 123); ?></td>
             </tr>
             <tr>
                 <td>(float) "123"</td>
@@ -152,6 +164,10 @@
             <tr>
                 <td>(string) 0</td>
                 <td class="respuesta"><?php var_dump((string) 0); ?></td>
+            </tr>
+            <tr>
+                <td>(string) 123</td>
+                <td class="respuesta"><?php var_dump((string) 123); ?></td>
             </tr>
             <tr>
                 <td>(string) 012</td>
