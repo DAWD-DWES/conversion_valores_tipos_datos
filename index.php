@@ -30,6 +30,10 @@
                 <td class="respuesta"><?php var_dump((bool) 1); ?></td>
             </tr>
             <tr>
+                <td>(bool) 0</td>
+                <td class="respuesta"><?php var_dump((bool) 0); ?></td>
+            </tr>
+            <tr>
                 <td>(bool) 1000</td>
                 <td class="respuesta"><?php var_dump((bool) 1000); ?></td>
             </tr>
